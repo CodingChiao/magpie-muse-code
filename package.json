@@ -1,0 +1,44 @@
+{
+  "name": "magpie-muse-code",
+  "version": "0.1.0",
+  "description": "OpenCode provider plugin: Meta One / Muse Code (muse-wonder-1.0, muse-spark-1.3, muse-spark-1.2) through Muse Code's device sign-in, current CLI sign-in, or API key",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "test:node": "node --import ./test/node/register.mjs index.test.mjs"
+  },
+  "keywords": [
+    "magpie-plugin",
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "meta",
+    "meta-one",
+    "muse",
+    "muse-code"
+  ],
+  "license": "MIT",
+  "author": "CodingChiao (https://github.com/CodingChiao)",
+  "homepage": "https://github.com/CodingChiao/magpie-muse-code#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingChiao/magpie-muse-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodingChiao/magpie-muse-code/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "magpie": {
+    "maxConcurrency": 8,
+    "icon": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230064e0' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z'/></svg>"
+  }
+}
